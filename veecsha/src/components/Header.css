@@ -12,9 +12,18 @@ ul{
 
 }
 .optdrop{
-    padding:0px 2px;
+    padding:2px 2px;
 }
 .optdrop:hover{
     border-bottom: 2px solid rgb(183, 0, 255);
     transition-delay: 0.3s;
+}
+.dis{
+    display: block;
+}
+.disnone{
+    display: none;
+}
+a{
+    text-decoration: none;
 }
