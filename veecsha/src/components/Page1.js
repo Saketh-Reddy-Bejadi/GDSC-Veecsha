@@ -5,9 +5,9 @@ export const Page1 = () => {
   return (
     <>
         <div className='Page1' >
-            <p className='heading' >Unleash your power with</p>
+            <p className='heading' >Unleash Your Power With</p>
             <p className='highlighted'>Veecsha</p>
-            <p className='subheading' >Focus on progess, not perfection</p>
+            <p className='subheading' >Prefer progess over perfection</p>
         </div>
     </>
   )
