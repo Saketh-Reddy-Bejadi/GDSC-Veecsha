@@ -1,10 +1,8 @@
-import { useState } from 'react';
 import "./Header.css";
 import veecsha from "../assets/Veecsha.png"
 
 export const Header = () => {
 
-  // const [display,setDisplay]=useState(false); 
 
 
   return (

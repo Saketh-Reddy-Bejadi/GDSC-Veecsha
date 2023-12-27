@@ -7,7 +7,7 @@ export const Page1 = () => {
         <div className='Page1' >
             <p className='heading' >Unleash your power with</p>
             <p className='highlighted'>Veecsha</p>
-            <p className='subheading' >Unleash your power with Veecsha</p>
+            <p className='subheading' >Focus on progess, not perfection</p>
         </div>
     </>
   )
