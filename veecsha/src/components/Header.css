@@ -13,9 +13,11 @@ ul{
 }
 .optdrop{
     padding:2px 2px;
+    border-bottom: 3px solid rgb(0, 0, 0);
+
 }
 .optdrop:hover{
-    border-bottom: 2px solid rgb(183, 0, 255);
+    border-bottom: 3px solid rgb(183, 0, 255);
     transition-delay: 0.3s;
 }
 .dis{

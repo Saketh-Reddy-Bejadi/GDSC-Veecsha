@@ -3,18 +3,7 @@ import "./Header.css";
 
 export const Header = () => {
 
-  const [display,setDisplay]=useState(false); 
-
-  function menu(){
-    if (window.innerWidth <= 768){
-      setDisplay(true);
-    }
-    else{
-      setDisplay(false);
-    }
-  }
-  // menu()  ;
-
+  // const [display,setDisplay]=useState(false); 
 
 
   return (
@@ -26,9 +15,6 @@ export const Header = () => {
           <a href=""><li className='optdrop' >Cheatsheets</li></a>
           <a href=""><li className='optdrop' >Installation</li></a>
         </ul>
-        <div className={display==true?"dis":"disnone"} >
-          <p>hi</p>
-        </div>
 
       </nav>
     </>
