@@ -7,6 +7,11 @@
 .heading{
     font-size: 70px;
 }
+.you ,.highlighted{
+    background: linear-gradient(90deg,#01A06B,#b573f8);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 .subheading{
     font-size: 20px;
     color: rgb(132, 132, 132);
