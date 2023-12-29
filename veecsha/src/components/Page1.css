@@ -2,23 +2,26 @@
 
 .highlighted{
     color: #01A06B;
-    font-size: 90px;
-    font-weight: 500;
+    font-size: 80px;
 }
 .heading{
-    font-size: 60px;
-    font-weight: 500;
+    font-size: 70px;
 }
 .subheading{
     font-size: 20px;
     color: rgb(132, 132, 132);
     font-family: 'JetBrains Mono', monospace; 
+    line-height: 50px;
+    margin: 0px 0px 0px 9px;
 }
 .Page1{
     display: flex;
+    background-color:#0E1319;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
     width: 100%;
-    height: 88vh;
+    height: calc(100% - 110px);
+    padding: 0px 90px;
+    font-weight: 600;
+    line-height: 80px;
 }
