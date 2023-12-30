@@ -6,9 +6,7 @@
     padding: 0px 90px;
     background-color: #0D1117;
 }
-.navbar .menu{
-    display: none;
-}
+
 ul{
     list-style-type: none;
     display: flex;
@@ -35,6 +33,37 @@ ul{
 a{
     text-decoration: none;
 }
+
+#menu > span {
+    display: block;
+    width: 28px;
+    height: 2px;
+    border-radius: 9999px;  
+    background-color: rgb(255, 255, 255);    
+}
+#menu > span:not(:last-child) {
+    margin-bottom: 7px;
+}
+#menu, #menu > span {
+    transition: all .4s ease-in-out;
+}
+#menu.active {    
+    transition-delay:0.8s;
+    transform:rotate(45deg);
+}
+#menu.active> span:nth-child(2) { 
+    width: 0;
+}
+#menu.active> span:nth-child(1),#menu.active> span:nth-child(3) {
+    transition-delay: .4s;
+}
+#menu.active> span:nth-child(1) {
+    transform: translateY(9px);
+}
+#menu.active> span:nth-child(3) {
+    transform: translateY(-9px) rotate(90deg);
+}
+
 
 
 @media only screen and (max-width: 600px) {
