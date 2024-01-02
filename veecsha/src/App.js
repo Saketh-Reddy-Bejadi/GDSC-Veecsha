@@ -17,7 +17,7 @@ export const App = () => {
           <img src={veecsha} height="30px" alt="" />
           <div className='NavPart2' >
           <ul>
-            <a href="Roadmaps"><li className='optdrop' >Web Development</li></a>
+            <a href="Web-development"><li className='optdrop' >Web Development</li></a>
             <a href=""><li className='optdrop' >Data Structures & Algorithms</li></a>
           </ul>
           <Menu/>
