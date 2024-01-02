@@ -1,23 +1,26 @@
 import React, { useState } from 'react';
 import './Menu.css'; 
 
+
 const Menu = () => {
-  const [isActive, setIsActive] = useState(false);
+  const [isOpened, setIsOpened] = useState(false);
 
   const toggleMenu = () => {
-    setIsActive(!isActive);
+    setIsOpened(!isOpened);
   };
 
   return (
-    <svg
-      className={`ham hamRotate ham7 ${isActive ? 'active ' : ''}`}viewBox="0 0 100 100"width="80"onClick={toggleMenu}>
-      <path className="line top" d="m 70,33 h -40 c 0,0 -6,1.368796 -6,8.5 0,7.131204 6,8.5013 6,8.5013 l 20,-0.0013" />
-      <path className="line middle" d="m 70,50 h -40" />
-      <path
-        className="line bottom"
-        d="m 69.575405,67.073826 h -40 c -5.592752,0 -6.873604,-9.348582 1.371031,-9.348582 8.244634,0 19.053564,21.797129 19.053564,12.274756 l 0,-40"
-      />
-    </svg>
+    <button
+      className={`menu ${isOpened ? 'opened' : ''}`}
+      onClick={toggleMenu}
+      aria-expanded={isOpened}
+      aria-label="Main Menu"
+    >
+      <svg width="60"  viewBox="0 0 100 100">
+        <path className="line line1" d="M 20,29.000046 H 80.000231 C 80.000231,29.000046 94.498839,28.817352 94.532987,66.711331 94.543142,77.980673 90.966081,81.670246 85.259173,81.668997 79.552261,81.667751 75.000211,74.999942 75.000211,74.999942 L 25.000021,25.000058" />
+        <path className="line line3" d="M 20,50.999954 H 80.000231 C 80.000231,70.999954 94.498839,71.182648 94.532987,33.288669 94.543142,22.019327 90.966081,18.329754 85.259173,18.331003 79.552261,18.332249 75.000211,25.000058 75.000211,25.000058 L 25.000021,74.999942" />
+      </svg>
+    </button>
   );
 };
 
