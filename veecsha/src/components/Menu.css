@@ -40,9 +40,12 @@
     stroke-dashoffset: -134;
     stroke-width: 6;
   }
-
+  #disnone{
+    display: none;
+  }
   @media only screen and (max-width: 600px) {
     .menu{
         display: block;
     }
+
   }

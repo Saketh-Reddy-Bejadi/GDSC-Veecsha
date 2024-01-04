@@ -4,11 +4,16 @@ import './components/Header.css';
 import Menu from './components/Menu';
 import React from 'react';
 import veecsha from "./assets/Veecsha.png";
-
+import { SideBar } from './components/SideBar';
+import { useState } from 'react';
 
 export const App = () => {
 
+  const [viewBox,setVewBox]=useState(false);
 
+  const MenuOpen=()=> {
+      setVewBox(!viewBox);
+  }
 
   return (
     <>
@@ -20,7 +25,8 @@ export const App = () => {
             <a href="Web-development"><li className='optdrop' >Web Development</li></a>
             <a href=""><li className='optdrop' >Data Structures & Algorithms</li></a>
           </ul>
-          <Menu/>
+          <Menu MenuOpen={MenuOpen} setVewBox={setVewBox} viewBox={viewBox}/>
+          <SideBar MenuOpen={MenuOpen} setVewBox={setVewBox} viewBox={viewBox}/>
           </div>
         </div>
         <div className='Page1'>

@@ -1,0 +1,20 @@
+.disnone{
+    display: none;
+}
+
+@media only screen and (max-width: 600px) {
+    .menu{
+        display: block;
+    }
+    .sidebar{
+      margin: 0px;
+      display: block;
+      width: 200px;
+      height: 1200px;
+      background-color: cadetblue;
+      z-index: 10;
+    }
+    #sidebarHide{
+      display:hidden;
+    }
+  }
