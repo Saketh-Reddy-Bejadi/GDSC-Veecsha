@@ -25,8 +25,8 @@ export const App = () => {
             <a href="Web-development"><li className='optdrop' >Web Development</li></a>
             <a href=""><li className='optdrop' >Data Structures & Algorithms</li></a>
           </ul>
-          <Menu MenuOpen={MenuOpen} setVewBox={setVewBox} viewBox={viewBox}/>
-          <SideBar MenuOpen={MenuOpen} setVewBox={setVewBox} viewBox={viewBox}/>
+          <Menu MenuOpen={MenuOpen}/>
+          <SideBar MenuOpen={MenuOpen} viewBox={viewBox}/>
           </div>
         </div>
         <div className='Page1'>

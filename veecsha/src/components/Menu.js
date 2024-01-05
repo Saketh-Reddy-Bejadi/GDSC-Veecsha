@@ -2,11 +2,15 @@ import React, { useState } from 'react';
 import './Menu.css'; 
 
 
-const Menu = ({viewBox,setVewBox,MenuOpen}) => {
+const Menu = ({MenuOpen,viewBox }) => {
   const [isOpened, setIsOpened] = useState(false);
 
   const toggleMenu = () => {
     setIsOpened(!isOpened);
+
+      MenuOpen(); 
+  
+
   };
   // const [viewBox,setVewBox]=useState(false);
 
@@ -20,10 +24,7 @@ const Menu = ({viewBox,setVewBox,MenuOpen}) => {
     <button
     id={(viewBox)?'disnone':""}
       className={`menu ${isOpened ? 'opened' : ''}`}
-      onClick={()=>{
-        toggleMenu();
-        MenuOpen(setVewBox);
-      }}
+      onClick={toggleMenu}
       aria-expanded={isOpened}
       aria-label="Main Menu"
     >

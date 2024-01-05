@@ -1,20 +1,28 @@
-.disnone{
-    display: none;
-}
+
 
 @media only screen and (max-width: 600px) {
-    .menu{
-        display: block;
-    }
     .sidebar{
       margin: 0px;
-      display: block;
-      width: 200px;
-      height: 1200px;
-      background-color: cadetblue;
-      z-index: 10;
+      width: 100dvw;
+      height: 100dvh;
+      color: black;
+      background-color: black;
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      transition: transform 0.3s ease-in-out;
     }
-    #sidebarHide{
-      display:hidden;
+    .sidebar h1 {
+      margin: 20px;
     }
+    
+    .sidebar.open {
+      transform: translateX(0); /* Move in when open */
+    }
+    
+    .sidebar.closed {
+      transform: translateX(-300px); /* Move out when closed */
+    }
+
+
   }
