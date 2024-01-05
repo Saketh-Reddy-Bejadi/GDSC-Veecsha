@@ -1,12 +1,12 @@
 import "./SideBar.css"
 
-export const SideBar = ({viewBox,MenuOpen}) => {
+export const SideBar = ({viewBox}) => {
 
   
   return (
     <>
         <div id='sidebarHide' className={(viewBox)?"sidebar":"disnone"}>
-            <h1>menu side</h1>
+            <p>Menu</p>
 
         </div>
     </>

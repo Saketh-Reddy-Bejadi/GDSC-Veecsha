@@ -7,17 +7,9 @@ const Menu = ({MenuOpen,viewBox }) => {
 
   const toggleMenu = () => {
     setIsOpened(!isOpened);
-
-      MenuOpen(); 
-  
-
+    MenuOpen();
   };
-  // const [viewBox,setVewBox]=useState(false);
 
-  // const MenuOpen=()=> {
-  //     setVewBox(!viewBox);
-  //     console.log("opened")
-  // }
   
   return (
     <>
