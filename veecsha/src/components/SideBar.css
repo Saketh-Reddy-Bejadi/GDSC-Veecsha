@@ -10,7 +10,28 @@
       position: absolute;
       top: 0px;
       right: 0px;
-      padding: 30px;
+      padding: 50px;
     }
+    .SBcontents{
+      margin: 60px 0px 0px 0px;
+      font-size: 36px;
+      
+    }
+    .SBcontents>a{
+      padding: 20px 10px;
+      border-color:rgb(0, 0, 0);
+      border-width:0px 0px 3px 0px;
+      border-style: solid;
+      padding: 20px 0px 0px 0px;
+      display: block;
+    }
+    .SBcontents a:hover{
+      border-color:#01A06B;
+      border-width:0px 0px 3px 0px;
+      border-style: solid;
+      display: inline-block;
+      
+    }
+    
 
   }
