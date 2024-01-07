@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/GDSC-Veecsha/static/css/main.fed7d12b.css",
-    "main.js": "/GDSC-Veecsha/static/js/main.dea2390d.js",
+    "main.css": "/GDSC-Veecsha/static/css/main.c6c89d43.css",
+    "main.js": "/GDSC-Veecsha/static/js/main.e84cce8e.js",
     "static/media/Veecsha.png": "/GDSC-Veecsha/static/media/Veecsha.607a5ca748f8813ffce3.png",
     "index.html": "/GDSC-Veecsha/index.html",
-    "main.fed7d12b.css.map": "/GDSC-Veecsha/static/css/main.fed7d12b.css.map",
-    "main.dea2390d.js.map": "/GDSC-Veecsha/static/js/main.dea2390d.js.map"
+    "main.c6c89d43.css.map": "/GDSC-Veecsha/static/css/main.c6c89d43.css.map",
+    "main.e84cce8e.js.map": "/GDSC-Veecsha/static/js/main.e84cce8e.js.map"
   },
   "entrypoints": [
-    "static/css/main.fed7d12b.css",
-    "static/js/main.dea2390d.js"
+    "static/css/main.c6c89d43.css",
+    "static/js/main.e84cce8e.js"
   ]
 }
