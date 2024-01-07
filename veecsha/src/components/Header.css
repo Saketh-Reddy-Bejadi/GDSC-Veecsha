@@ -16,14 +16,23 @@ ul{
 
 }
 .optdrop{
-    padding:2px 2px;
+    padding:10px 2px;
     border-bottom: 3px solid rgba(0, 0, 0, 0);
     font-size: 17px;
-
+    position: relative; 
 }
-.optdrop:hover{
-    border-bottom: 3px solid #01A06B;
-    transition-delay: 0.3s;
+.optdrop::after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 3px;
+    background: linear-gradient(to left, transparent 0%, #b573f8 100%); 
+    transition: width 0.3s ease-in-out;
+}
+.optdrop:hover::after{
+    width: 100%;
 }
 .dis{
     display: block;
