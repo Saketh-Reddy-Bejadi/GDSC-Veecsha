@@ -24,14 +24,24 @@
       border-style: solid;
       padding: 20px 0px 0px 0px;
       display: block;
+      position: relative; 
     }
-    .SBcontents a:hover{
-      border-color:#01A06B;
-      border-width:0px 0px 3px 0px;
-      border-style: solid;
-      display: inline-block;
-      
+    
+    .SBcontents a:after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 0%;
+      height: 3px;
+      background: linear-gradient(to left, transparent 0%, #b573f8 100%); 
+      transition: width 0.3s ease-in-out; 
     }
+    
+    .SBcontents a:hover:after {
+      width: 70%; 
+    }
+    
     
 
   }
