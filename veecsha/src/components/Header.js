@@ -1,7 +1,7 @@
 import React from 'react'
 import Menu from './Menu'
 import { SideBar } from './SideBar'
-import veecsha from "../assets/20240113_213310_0000 copy.svg";
+import veecsha from "../assets/20240113_213310_0000.svg";
 
 
 export const Header = ({MenuOpen,viewBox}) => {
