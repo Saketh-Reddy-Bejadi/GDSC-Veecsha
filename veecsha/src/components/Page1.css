@@ -31,13 +31,22 @@
     color: gray;
     font-size: 19px;
 }
+.navBtn{
+    display: none;
+}
 
 @media only screen and (max-width: 600px) {
     .Head1{
-        font-size: 1.875rem;
+        font-size: 2rem;
     }
     .Body1{
-        font-size: .875rem;
-        
+        font-size: 1rem;
+    }
+    
+    .navBtn{
+        display: block;
+        margin:15px 0px 15px 0px;
+        border-radius: 10px;
+        text-align: center;
     }
 }
