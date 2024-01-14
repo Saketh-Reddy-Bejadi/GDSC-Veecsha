@@ -14,7 +14,6 @@
     align-items: center;
 }
 .Con1{
-    justify-content: start;
     width: 500px;
     padding: 25px;
     /* border: 1px dashed rgba(128, 128, 128, 0.345);
@@ -30,5 +29,15 @@
 .Body1{
     margin:20px 0px 0px 0px;
     color: gray;
-    font-size: 18px;
+    font-size: 19px;
+}
+
+@media only screen and (max-width: 600px) {
+    .Head1{
+        font-size: 1.875rem;
+    }
+    .Body1{
+        font-size: .875rem;
+        
+    }
 }
