@@ -15,12 +15,20 @@
 }
 .Con1{
     justify-content: start;
-    background-color: red;
     width: 500px;
-    height: 400px;
+    padding: 25px;
+    /* border: 1px dashed rgba(128, 128, 128, 0.345);
+    border-radius: 20px;
+    box-shadow: 0px 0px 40px 1px rgba(255, 255, 255, 0.154); */
 }
-.UpperCon{
-    font-size: 35px;
-    padding: 20px;
+.Head1{
+    font-size: 38px;
     font-weight:500;
+    color: rgba(255, 255, 255, 0.786);
+    line-height: 1.2;
+}
+.Body1{
+    margin:20px 0px 0px 0px;
+    color: gray;
+    font-size: 18px;
 }

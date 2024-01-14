@@ -5,6 +5,8 @@
     justify-content: space-between;
     padding: 0px 90px;
     background-color: #0D1117;
+    box-shadow: 0px 0px 40px 1px rgba(255, 255, 255, 0.048);
+
 }
 .brnd{
     font-size: 30px;
