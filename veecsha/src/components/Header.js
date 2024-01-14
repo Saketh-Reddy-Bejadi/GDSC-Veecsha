@@ -1,11 +1,12 @@
 import React from 'react'
 import Menu from './Menu'
-import { SideBar } from './SideBar'
+import { SideBar } from './SideBar';
 
 
 export const Header = ({MenuOpen,viewBox}) => {
   return (
     <div>
+        <div className="shadow"></div>
         <div className='navbar'>
           <p className='brnd' >Veecsha</p>
           <div className='NavPart2' >
