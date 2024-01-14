@@ -7,7 +7,11 @@
     background-color: #0D1117;
 }
 .brnd{
-    width: 120px;
+    font-size: 30px;
+    font-weight: 540;
+    background: linear-gradient(90deg,#01A06B,#b573f8);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 ul{
     list-style-type: none;
@@ -36,14 +40,23 @@ a{
     border-radius: 90px;
     font-weight:500;
     font-size: 14.5px;
+    transition-property: all;
+    transition-duration: .5s;
+    transition-timing-function: ease;
 }
 .webBtn{
     background-color: #01A06B;
     color: black;
 }
+.webBtn:hover{
+    background-color: white;
+}
 .dsaBtn{
     background-color: rgba(255, 255, 255, 0.05);
     border: 1px solid rgba(128, 128, 128, 0.637);
+}
+.dsaBtn:hover{
+    background-color: rgba(255, 255, 255, 0.09);
 }
 
 
