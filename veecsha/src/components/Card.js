@@ -9,9 +9,6 @@ export const Card = ({value,SubContent,Content,logo}) => {
             case 4:return "#e0f34d11";break;
             case 5:return "#4df3f311";break;
             case 6:return "#4d60f311";break;
-    
-            default:
-                break;
         }
     }
     

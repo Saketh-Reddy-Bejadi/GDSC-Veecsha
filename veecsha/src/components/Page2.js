@@ -13,7 +13,7 @@ export const Page2 = () => {
   return (
     <div className='Page2'>
         <div className="Con2">
-            <p className="Head2">Here Is What You Get Out Of This Program</p>
+            <p className="Head2">Here Is What You Get Out Of Veecsha</p>
             <div className='SubHead' >
                 <Card value={1} logo={focus} SubContent={"Focused Learning Paths"} Content={"Simplify your tech journey with curated paths. Dive into programming, web development, or DSA, ensuring a grasp of core concepts without overwhelming details."}/>
                 <Card value={2} logo={practical} SubContent={"Practical Micro Learning"} Content={" Break free from lengthy lectures. Veecsha offers bite-sized, practical micro-learning experiences, providing hands-on, applicable knowledge that seamlessly fits into your schedule."}/>
