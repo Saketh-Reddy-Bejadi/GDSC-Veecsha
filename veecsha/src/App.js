@@ -25,6 +25,7 @@ export const App = () => {
       <div id='Home' className="main">
       <Header MenuOpen={MenuOpen} toggleMenu={toggleMenu} isOpened={isOpened} viewBox={viewBox} />
       <Page1/>
+      <div id='Services' ></div>
       <Page2/>
       </div>  
     </>
