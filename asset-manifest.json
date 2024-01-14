@@ -1,13 +1,19 @@
 {
   "files": {
-    "main.css": "/GDSC-Veecsha/static/css/main.49a8c619.css",
-    "main.js": "/GDSC-Veecsha/static/js/main.3d73782f.js",
+    "main.css": "/GDSC-Veecsha/static/css/main.8ff5e82b.css",
+    "main.js": "/GDSC-Veecsha/static/js/main.d8bced08.js",
+    "static/media/updates.svg": "/GDSC-Veecsha/static/media/updates.f80997c2b85c697545a19113f7391959.svg",
+    "static/media/resources.svg": "/GDSC-Veecsha/static/media/resources.f7f9b5919abcdf8b9fa218ed0c999d08.svg",
+    "static/media/practical.svg": "/GDSC-Veecsha/static/media/practical.21b89cad557716a4d51ac3bdcaa0650f.svg",
+    "static/media/roadmap.svg": "/GDSC-Veecsha/static/media/roadmap.0845bfa97884a617e566de586a52feff.svg",
+    "static/media/filter.svg": "/GDSC-Veecsha/static/media/filter.eea41c0c05b8f92274eed91c18c402c3.svg",
+    "static/media/target.svg": "/GDSC-Veecsha/static/media/target.f0652d0350fd643c2d8f27da5bb2f930.svg",
     "index.html": "/GDSC-Veecsha/index.html",
-    "main.49a8c619.css.map": "/GDSC-Veecsha/static/css/main.49a8c619.css.map",
-    "main.3d73782f.js.map": "/GDSC-Veecsha/static/js/main.3d73782f.js.map"
+    "main.8ff5e82b.css.map": "/GDSC-Veecsha/static/css/main.8ff5e82b.css.map",
+    "main.d8bced08.js.map": "/GDSC-Veecsha/static/js/main.d8bced08.js.map"
   },
   "entrypoints": [
-    "static/css/main.49a8c619.css",
-    "static/js/main.3d73782f.js"
+    "static/css/main.8ff5e82b.css",
+    "static/js/main.d8bced08.js"
   ]
 }
