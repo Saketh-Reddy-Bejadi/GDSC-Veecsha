@@ -1,17 +1,20 @@
 import "./SideBar.css"
 
-export const SideBar = ({viewBox}) => {
+export const SideBar = ({viewBox,toggleMenu}) => {
 
+  const ClickedBtn=()=>{
+    toggleMenu();
+  }
   
   return (
     <>
         <div id='sidebarHide' className={(viewBox)?"sidebar":"disnone"}>
             <p>Menu</p>
             <div className="SBcontents" >
-              <a href="Home" >Home</a>
-              <a href="Services">Services</a>
-              <a href="Web Dev">Web Dev</a>
-              <a href="DSA">DSA</a>
+              <a onClick={ClickedBtn} href="#Home" >Home</a>
+              <a onClick={ClickedBtn} href="#Services">Services</a>
+              <a onClick={ClickedBtn} href="Web Dev">Web Dev</a>
+              <a onClick={ClickedBtn} href="DSA">DSA</a>
             </div>
         </div>
     </>   

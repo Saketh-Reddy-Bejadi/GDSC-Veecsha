@@ -11,7 +11,7 @@ import updates from "../assets/updates.svg";
 export const Page2 = () => {
     
   return (
-    <div className='Page2'>
+    <div id='Services' className='Page2'>
         <div className="Con2">
             <p className="Head2">Here Is What You Get Out Of <span className='brnd' >Veecsha</span></p>
             <div className='SubHead' >

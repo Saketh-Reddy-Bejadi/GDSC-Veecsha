@@ -3,7 +3,7 @@ import Menu from './Menu'
 import { SideBar } from './SideBar';
 
 
-export const Header = ({MenuOpen,viewBox}) => {
+export const Header = ({MenuOpen,toggleMenu,viewBox,isOpened}) => {
   return (
     <div>
         <div className="shadow"></div>
@@ -14,8 +14,8 @@ export const Header = ({MenuOpen,viewBox}) => {
             <a href="Web-development"><li className='navBtn webBtn' >Web Development</li></a>
             <a href="DSA"><li className='navBtn dsaBtn'>Data Structures & Algorithms</li></a>
           </ul>
-          <Menu MenuOpen={MenuOpen}/>
-          <SideBar MenuOpen={MenuOpen} viewBox={viewBox}/>
+          <Menu MenuOpen={MenuOpen} toggleMenu={toggleMenu} isOpened={isOpened}/>
+          <SideBar MenuOpen={MenuOpen} toggleMenu={toggleMenu} viewBox={viewBox}/>
           </div>
         </div>
     </div>

@@ -13,10 +13,17 @@ export const App = () => {
       setVewBox(!viewBox);
   }
 
+  const [isOpened, setIsOpened] = useState(false);
+
+  const toggleMenu = () => {
+    setIsOpened(!isOpened);
+    MenuOpen();
+  };
+
   return (
     <>
-      <div className="main">
-      <Header MenuOpen={MenuOpen} viewBox={viewBox} />
+      <div id='Home' className="main">
+      <Header MenuOpen={MenuOpen} toggleMenu={toggleMenu} isOpened={isOpened} viewBox={viewBox} />
       <Page1/>
       <Page2/>
       </div>  

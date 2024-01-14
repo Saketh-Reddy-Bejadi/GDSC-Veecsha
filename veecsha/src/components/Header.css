@@ -4,6 +4,7 @@
     align-items: center;
     justify-content: space-between;
     padding: 0px 100px;
+    font-size: 30px;
     
 }
 .shadow{
@@ -15,7 +16,6 @@
     top: -200px;
 }
 .brnd{
-    font-size: 30px;
     font-weight: 540;
     background: linear-gradient(90deg,#01A06B,#b573f8);
     background-clip: text;

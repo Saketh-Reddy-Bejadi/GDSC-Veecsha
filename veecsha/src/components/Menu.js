@@ -1,14 +1,8 @@
-import React, { useState } from 'react';
 import './Menu.css'; 
 
 
-const Menu = ({MenuOpen,viewBox }) => {
-  const [isOpened, setIsOpened] = useState(false);
+const Menu = ({toggleMenu,viewBox,isOpened}) => {
 
-  const toggleMenu = () => {
-    setIsOpened(!isOpened);
-    MenuOpen();
-  };
 
   
   return (
