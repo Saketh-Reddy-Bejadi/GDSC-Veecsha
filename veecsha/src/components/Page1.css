@@ -1,0 +1,26 @@
+.pattern1{
+    width: 400px;
+    filter:opacity(10%);
+    position: absolute;
+    top: -100px;
+    z-index: 1;
+
+}
+.Page1{
+    width: 100%;
+    height: calc(100% - 100px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Con1{
+    justify-content: start;
+    background-color: red;
+    width: 500px;
+    height: 400px;
+}
+.UpperCon{
+    font-size: 35px;
+    padding: 20px;
+    font-weight:500;
+}

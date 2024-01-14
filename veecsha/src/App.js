@@ -1,6 +1,6 @@
 import './App.css';
 import './components/Header.css';
-
+import { Page1 } from './components/Page1';
 import { useState } from 'react';
 import { Header } from './components/Header';
 
@@ -16,12 +16,8 @@ export const App = () => {
     <>
       <div className="main">
       <Header MenuOpen={MenuOpen} viewBox={viewBox} />
-        <div className='Page1'>
-          {/* <p className='heading'>Unleash <span className='you' >You</span>r Power With</p>
-          <p className='highlighted'>Veecsha</p>
-          <p className='subheading'>Prefer progess over perfection</p> */}
-        </div>
-      </div>
+      <Page1/>
+      </div>  
     </>
   )
 }
