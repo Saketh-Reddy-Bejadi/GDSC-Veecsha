@@ -60,14 +60,31 @@
     font-size: 50px;
     text-align: center;
   }
+  .WebCon1 img{
+    width: 90px;
+  }
   .html{
-    top: 100px;
-    left: 10px;
+    top: 80px;
+    left: auto;
+    right: 80px;
   }
   .css{
-    top: 150px;
+    top: 300px;
     right: 30px;
     left: auto;
   }
- 
+  .reactJS{
+    top: auto;
+    bottom: 110px;
+    left: 50px;
+  }
+  .js{
+    top: auto;
+    bottom: 30px;
+    right: 10px;
+  }
+  .nodeJS{
+    top:130px ;
+    left: 5px;
+  }
 }
