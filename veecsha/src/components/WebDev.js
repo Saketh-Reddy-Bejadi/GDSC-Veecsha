@@ -11,11 +11,11 @@ export const WebDev = () => {
   return (
     <div className="WebDev" >
         <div className="WebCon1" >
-          <img className="html" src={html} alt="" />
-          <img className="css" src={css} alt="" />
-          <img className="js" src={js} alt="" />
-          <img className="reactJS" src={reactJS} alt="" />
-          <img className="nodeJS" src={nodeJS} alt="" />
+          <img className="img1" src={html} alt="" />
+          <img className="img2" src={css} alt="" />
+          <img className="img3" src={js} alt="" />
+          <img className="img4" src={reactJS} alt="" />
+          <img className="img5" src={nodeJS} alt="" />
 
 
         <p className="webH brnd" >Web Development</p>

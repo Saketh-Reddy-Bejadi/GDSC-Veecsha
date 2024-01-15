@@ -13,24 +13,24 @@
   align-items: center;
   font-weight: 550;
 }
-.html{
+.img1{
 
   top: 160px;
   left: 180px;
 }
-.css{
+.img2{
   top: 110px;
   left:600px;
 }
-.js{
+.img3{
   top: 130px;
   right: 190px;
 }
-.reactJS{
+.img4{
   bottom: 90px;
   left: 400px;
 }
-.nodeJS{
+.img5{
   bottom: 90px;
   left: 730px;
 }
@@ -46,7 +46,7 @@
     transform: translateY(0)rotate(15deg);
   }
   50%{
-    transform: translateY(-10px)rotate(15deg);
+    transform: translateY(-5px)rotate(15deg);
   }
   100%{
     transform: translateY(0)rotate(15deg);
@@ -62,27 +62,27 @@
   .WebCon1 img{
     width: 90px;
   }
-  .html{
+  .img1{
     top: 80px;
     left: auto;
     right: 80px;
   }
-  .css{
+  .img2{
     top: 280px;
     right: 30px;
     left: auto;
   }
-  .reactJS{
+  .img4{
     top: auto;
     bottom: 110px;
     left: 50px;
   }
-  .js{
+  .img3{
     top: auto;
     bottom: 30px;
     right: 10px;
   }
-  .nodeJS{
+  .img5{
     top:130px ;
     left: 5px;
   }

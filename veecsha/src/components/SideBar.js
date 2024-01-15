@@ -15,7 +15,7 @@ export const SideBar = ({viewBox,toggleMenu}) => {
               <Link onClick={ClickedBtn} to="/GDSC-Veecsha/Home" >Home</Link>
               <a onClick={ClickedBtn} href="/GDSC-Veecsha/#Services">Services</a>
               <Link onClick={ClickedBtn} to="/GDSC-Veecsha/WebDev">Web Dev</Link>
-              <a onClick={ClickedBtn} href="/GDSC-Veecsha/DSA">DSA</a>
+              <Link onClick={ClickedBtn} to="/GDSC-Veecsha/DSA">DSA</Link>
             </div>
         </div>
     </>   

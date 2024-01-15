@@ -9,3 +9,36 @@
     align-items: center;
     font-weight: 550;
 }
+.dsaCon img{
+    width: 140px;
+    position: absolute;
+    animation: IMGanimation 3s ease infinite; 
+  
+  }
+  @keyframes IMGanimation {
+    0%{
+      transform: translateY(0)rotate(-15deg);
+    }
+    50%{
+      transform: translateY(-10px)rotate(-15deg);
+    }
+    100%{
+      transform: translateY(0)rotate(-15deg);
+    }
+  }
+
+@media only screen and (max-width: 600px) {
+    .dsaH{
+      font-size: 50px;
+      text-align: center;
+    }
+    .dsaCon img{
+      width: 90px;
+    }
+    .img1{
+        left: 180px;
+    }
+    .img2{
+        top: 200px;
+    }
+  }
