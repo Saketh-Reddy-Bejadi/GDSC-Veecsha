@@ -8,11 +8,11 @@ export const Header = ({MenuOpen,toggleMenu,viewBox,isOpened}) => {
   return (
     <header>
         <div className='navbar'>
-          <Link to='/Home' id='brnd' className='brnd' >Veecsha</Link>
+          <a href='/GDSC-Veecsha' id='brnd' className='brnd' >Veecsha</a>
           <div className='NavPart2' >
           <ul>
-            <Link to="/WebDev"><li className='navBtn webBtn' >Web Development</li></Link>
-            <Link to="DSA"><li className='navBtn dsaBtn'>Data Structures & Algorithms</li></Link>
+            <Link to="/GDSC-Veecsha/WebDev"><li className='navBtn webBtn' >Web Development</li></Link>
+            <Link to="/GDSC-Veecsha/DSA"><li className='navBtn dsaBtn'>Data Structures & Algorithms</li></Link>
           </ul>
           <Menu MenuOpen={MenuOpen} toggleMenu={toggleMenu} isOpened={isOpened}/>
           <SideBar MenuOpen={MenuOpen} toggleMenu={toggleMenu} viewBox={viewBox}/>

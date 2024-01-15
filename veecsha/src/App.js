@@ -27,9 +27,9 @@ export const App = () => {
       <Header MenuOpen={MenuOpen} toggleMenu={toggleMenu} isOpened={isOpened} viewBox={viewBox} />
       <main id='Home' className="main">
         <Routes>
-          <Route path='/' Component={Home} ></Route>
-          <Route path='/WebDev' Component={WebDev} ></Route>
-          <Route path='/Home' Component={Home} ></Route>
+          <Route path='/GDSC-Veecsha' Component={Home} ></Route>
+          <Route path='/GDSC-Veecsha/WebDev' Component={WebDev} ></Route>
+          <Route path='/GDSC-Veecsha/Home' Component={Home} ></Route>
         </Routes>
       </main>  
       <Footer/>
