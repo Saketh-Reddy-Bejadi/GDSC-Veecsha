@@ -4,6 +4,7 @@ import { Page1 } from './components/Page1';
 import { useState } from 'react';
 import { Header } from './components/Header';
 import { Page2 } from './components/Page2';
+import { Footer } from './components/Footer';
 
 export const App = () => {
 
@@ -27,6 +28,7 @@ export const App = () => {
       <Page1/>
       <div id='Services' ></div>
       <Page2/>
+      <Footer/>
       </div>  
     </>
   )

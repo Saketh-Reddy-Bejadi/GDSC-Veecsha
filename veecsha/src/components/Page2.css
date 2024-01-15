@@ -31,7 +31,7 @@
     padding: 32px;
 }
 .CardContent{
-    color:lightgray;
+    color:rgba(211, 211, 211, 0.709);
 }
 .logo{
     width: 70px;
