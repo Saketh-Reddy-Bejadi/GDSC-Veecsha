@@ -12,8 +12,8 @@ export const SideBar = ({viewBox,toggleMenu}) => {
         <div id='sidebarHide' className={(viewBox)?"sidebar":"disnone"}>
             <p>Menu</p>
             <div className="SBcontents" >
-              <Link onClick={ClickedBtn} to="#Home" >Home</Link>
-              <a onClick={ClickedBtn} href="#Services">Services</a>
+              <Link onClick={ClickedBtn} to="/GDSC-Veecsha/Home" >Home</Link>
+              <a onClick={ClickedBtn} href="/GDSC-Veecsha/#Services">Services</a>
               <Link onClick={ClickedBtn} to="/GDSC-Veecsha/WebDev">Web Dev</Link>
               <a onClick={ClickedBtn} href="/GDSC-Veecsha/DSA">DSA</a>
             </div>

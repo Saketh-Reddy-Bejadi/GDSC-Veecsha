@@ -1,3 +1,73 @@
 .WebDev{
+  width: 100%;
+ 
+}
+.webH{
+  text-shadow:5px 5px 10px rgba(255, 255, 255, 0.164);
+}
+.WebCon1{
   padding: 70px 0px 0px 0px;
+  height: 100svh;
+  display: flex;
+  justify-content: center;
+  font-size: 80px;
+  align-items: center;
+  font-weight: 550;
+}
+.html{
+
+  top: 230px;
+  left: 180px;
+}
+.css{
+  top: 180px;
+  left:600px;
+}
+.js{
+  top: 200px;
+  right: 190px;
+}
+.reactJS{
+  bottom: 80px;
+  left: 400px;
+}
+.nodeJS{
+  bottom: 80px;
+  left: 730px;
+}
+.WebCon1 img{
+  animation: IMGanimation 3s ease infinite;
+  position: absolute;
+  width: 120px;
+
+
+}
+@keyframes IMGanimation {
+  0%{
+    transform: translateY(0)rotate(15deg);
+  }
+  50%{
+    transform: translateY(-10px)rotate(15deg);
+  }
+  100%{
+    transform: translateY(0)rotate(15deg);
+  }
+}
+
+
+@media only screen and (max-width: 600px) {
+  .webH{
+    font-size: 50px;
+    text-align: center;
+  }
+  .html{
+    top: 100px;
+    left: 10px;
+  }
+  .css{
+    top: 150px;
+    right: 30px;
+    left: auto;
+  }
+ 
 }
