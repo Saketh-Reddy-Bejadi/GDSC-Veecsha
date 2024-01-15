@@ -29,6 +29,7 @@ export const App = () => {
         <Routes>
           <Route path='/' Component={Home} ></Route>
           <Route path='/WebDev' Component={WebDev} ></Route>
+          <Route path='/Home' Component={Home} ></Route>
         </Routes>
       </main>  
       <Footer/>

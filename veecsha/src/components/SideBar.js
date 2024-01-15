@@ -12,7 +12,7 @@ export const SideBar = ({viewBox,toggleMenu}) => {
         <div id='sidebarHide' className={(viewBox)?"sidebar":"disnone"}>
             <p>Menu</p>
             <div className="SBcontents" >
-              <a onClick={ClickedBtn} href="/#Home" >Home</a>
+              <Link onClick={ClickedBtn} to="/Home" >Home</Link>
               <a onClick={ClickedBtn} href="/#Services">Services</a>
               <Link onClick={ClickedBtn} to="/WebDev">Web Dev</Link>
               <a onClick={ClickedBtn} href="DSA">DSA</a>
