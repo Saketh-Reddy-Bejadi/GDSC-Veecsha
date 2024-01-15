@@ -6,6 +6,7 @@ import { Footer } from './components/Footer';
 import { Routes,Route } from 'react-router-dom';
 import { Home } from './components/Home';
 import { WebDev } from './components/WebDev';
+import { DSA } from './components/DSA';
 
 export const App = () => {
 
@@ -30,6 +31,7 @@ export const App = () => {
           <Route path='/GDSC-Veecsha' Component={Home} ></Route>
           <Route path='/GDSC-Veecsha/WebDev' Component={WebDev} ></Route>
           <Route path='/GDSC-Veecsha/Home' Component={Home} ></Route>
+          <Route path='/GDSC-Veecsha/DSA' Component={DSA} ></Route>
         </Routes>
       </main>  
       <Footer/>

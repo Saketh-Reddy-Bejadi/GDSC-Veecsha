@@ -6,7 +6,6 @@
   text-shadow:5px 5px 10px rgba(255, 255, 255, 0.164);
 }
 .WebCon1{
-  padding: 70px 0px 0px 0px;
   height: 100svh;
   display: flex;
   justify-content: center;
@@ -16,23 +15,23 @@
 }
 .html{
 
-  top: 230px;
+  top: 160px;
   left: 180px;
 }
 .css{
-  top: 180px;
+  top: 110px;
   left:600px;
 }
 .js{
-  top: 200px;
+  top: 130px;
   right: 190px;
 }
 .reactJS{
-  bottom: 80px;
+  bottom: 90px;
   left: 400px;
 }
 .nodeJS{
-  bottom: 80px;
+  bottom: 90px;
   left: 730px;
 }
 .WebCon1 img{
@@ -69,7 +68,7 @@
     right: 80px;
   }
   .css{
-    top: 300px;
+    top: 280px;
     right: 30px;
     left: auto;
   }
