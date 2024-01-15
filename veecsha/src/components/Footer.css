@@ -1,6 +1,6 @@
-.Footer{
+footer{
     width: 100%;
-    background-color: black;
+    background-color:#0e1319fc;
     display: flex;
     flex-direction: column;
     justify-content: center;

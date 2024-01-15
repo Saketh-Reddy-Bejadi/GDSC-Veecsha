@@ -1,10 +1,11 @@
 import './App.css';
 import './components/Header.css';
-import { Page1 } from './components/Page1';
 import { useState } from 'react';
 import { Header } from './components/Header';
-import { Page2 } from './components/Page2';
 import { Footer } from './components/Footer';
+import { Routes,Route } from 'react-router-dom';
+import { Home } from './components/Home';
+import { WebDev } from './components/WebDev';
 
 export const App = () => {
 
@@ -23,13 +24,14 @@ export const App = () => {
 
   return (
     <>
-      <div id='Home' className="main">
       <Header MenuOpen={MenuOpen} toggleMenu={toggleMenu} isOpened={isOpened} viewBox={viewBox} />
-      <Page1/>
-      <div id='Services' ></div>
-      <Page2/>
+      <main id='Home' className="main">
+        <Routes>
+          <Route path='/' Component={Home} ></Route>
+          <Route path='/WebDev' Component={WebDev} ></Route>
+        </Routes>
+      </main>  
       <Footer/>
-      </div>  
     </>
   )
 }
