@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/GDSC-Veecsha/static/css/main.85e5459d.css",
-    "main.js": "/GDSC-Veecsha/static/js/main.afdaf6cd.js",
+    "main.js": "/GDSC-Veecsha/static/js/main.384d36f6.js",
     "static/media/updates.svg": "/GDSC-Veecsha/static/media/updates.f80997c2b85c697545a19113f7391959.svg",
     "static/media/resources.svg": "/GDSC-Veecsha/static/media/resources.f7f9b5919abcdf8b9fa218ed0c999d08.svg",
     "static/media/practical.svg": "/GDSC-Veecsha/static/media/practical.21b89cad557716a4d51ac3bdcaa0650f.svg",
@@ -19,10 +19,10 @@
     "static/media/nodejs.svg": "/GDSC-Veecsha/static/media/nodejs.91f094476d7122b819f3efe2e81ce7a4.svg",
     "index.html": "/GDSC-Veecsha/index.html",
     "main.85e5459d.css.map": "/GDSC-Veecsha/static/css/main.85e5459d.css.map",
-    "main.afdaf6cd.js.map": "/GDSC-Veecsha/static/js/main.afdaf6cd.js.map"
+    "main.384d36f6.js.map": "/GDSC-Veecsha/static/js/main.384d36f6.js.map"
   },
   "entrypoints": [
     "static/css/main.85e5459d.css",
-    "static/js/main.afdaf6cd.js"
+    "static/js/main.384d36f6.js"
   ]
 }
