@@ -13,7 +13,6 @@ export const SideBar = ({viewBox,toggleMenu}) => {
             <p>Menu</p>
             <div className="SBcontents" >
               <Link onClick={ClickedBtn} to="/GDSC-Veecsha/Home" >Home</Link>
-              <a onClick={ClickedBtn} href="/GDSC-Veecsha/#Services">Services</a>
               <Link onClick={ClickedBtn} to="/GDSC-Veecsha/WebDev">Web Dev</Link>
               <Link onClick={ClickedBtn} to="/GDSC-Veecsha/DSA">DSA</Link>
             </div>
