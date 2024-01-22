@@ -4,10 +4,14 @@ import css from "../assets/css.svg"
 import js from "../assets/js.svg"
 import reactJS from "../assets/reactJS.svg"
 import nodeJS from "../assets/nodejs.svg"
+import { useEffect } from "react";
 
 
 
 export const WebDev = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []); 
   return (
     <div className="WebDev" >
         <div className="WebCon1" >

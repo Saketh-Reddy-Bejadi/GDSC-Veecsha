@@ -4,6 +4,7 @@ import python from "../assets/python.svg";
 import js from "../assets/js.svg";
 import cpp from "../assets/c++.svg";
 import c_pro from "../assets/c-pro.svg";
+import { useEffect } from "react";
 
 
 
@@ -11,6 +12,9 @@ import c_pro from "../assets/c-pro.svg";
 
 
 export const DSA = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []); 
   return (
     <div className='DSA' >
         <div className="dsaCon">

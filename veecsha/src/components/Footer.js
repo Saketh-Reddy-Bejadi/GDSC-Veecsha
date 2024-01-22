@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./Footer.css";
 
 
@@ -7,10 +8,10 @@ export const Footer = () => {
         <div className="Sub1">
         <div className="QuickLinks" >
             <p className="FHead" >HELPFUL LINKS</p>
-            <a href="#0" className="FContent" >Home</a>
-            <a href="#0" className="FContent" >Services</a>
-            <a href="#0" className="FContent" >Web Dev</a>
-            <a href="#0" className="FContent" >DSA</a>
+            <Link to="/GDSC-Veecsha" className="FContent" >Home</Link>
+            <Link to="/GDSC-Veecsha/Services" className="FContent" >Services</Link>
+            <Link to="/GDSC-Veecsha/WebDev" className="FContent" >Web Dev</Link>
+            <Link to="/GDSC-Veecsha/DSA" className="FContent" >DSA</Link>
         </div>
         <div className="Contact">
             <p className="FHead" >CONNECT WITH US</p>
