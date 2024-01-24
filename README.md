@@ -1,2 +1,2 @@
 # GDSC-Veecsha
-To Look after the website, here is a link of deplpoyed through Git Pages:  https://saketh-reddy-bejadi.github.io/GDSC-Veecsha/
+<h3>🚀Hey there! Take a look at our awesome website deployed through Git Pages: GDSC-Veecsha 🌐. Explore the magic! ✨</h3>
