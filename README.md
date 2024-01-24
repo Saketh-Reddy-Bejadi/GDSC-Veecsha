@@ -1,4 +1,3 @@
-# GDSC-Veecsha
 <h1>Introducing Veecsha</h1>
 <p>Welcome to Veecsha - Where Tech Learning Feels Like a Breeze! 🎓✨<br>
 In a world buzzing with tech complexities, Veecsha is your shortcut to expertise without the overload. Bid farewell to the confusion and embrace a straightforward journey to mastering the essential tech know-how.</p>
