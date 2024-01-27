@@ -7,10 +7,6 @@ import c_pro from "../assets/c-pro.svg";
 import { useEffect } from "react";
 
 
-
-
-
-
 export const DSA = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -23,11 +19,6 @@ export const DSA = () => {
             <img className="img3" src={js} alt="" />
             <img className="img4" src={cpp} alt="" />
             <img className="img5" src={c_pro} alt="" />
-
-
-
-            
-
         <p className="dsaH brnd" >Data Structures &amp; Algorithms</p>
         </div>
     </div>
