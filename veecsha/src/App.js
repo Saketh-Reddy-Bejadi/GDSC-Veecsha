@@ -3,8 +3,7 @@ import './components/Header.css';
 import { useState } from 'react';
 import { Header } from './components/Header';
 import { Footer } from './components/Footer';
-import { HashRouter as Router, Route } from 'react-router-dom';
-
+import { Routes,Route } from 'react-router-dom';
 import { Home } from './components/Home';
 import { WebDev } from './components/WebDev';
 import { DSA } from './components/DSA';
@@ -29,13 +28,13 @@ export const App = () => {
     <>
       <Header MenuOpen={MenuOpen} toggleMenu={toggleMenu} isOpened={isOpened} viewBox={viewBox} />
       <main id='Home' className="main">
-        <Router>
+        <Routes>
           <Route path='/GDSC-Veecsha' element={<Home/>} />
           <Route path='/GDSC-Veecsha/WebDev' element={<WebDev/>} />
           <Route path='/GDSC-Veecsha/Home' element={<Home/>} />
           <Route path='/GDSC-Veecsha/DSA' element={<DSA/>} />
           <Route path='/GDSC-Veecsha/Services' element={<Services/>} />
-        </Router>
+        </Routes>
       </main>  
       <Footer/>
     </>

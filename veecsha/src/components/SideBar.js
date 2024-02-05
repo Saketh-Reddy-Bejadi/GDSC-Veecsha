@@ -9,7 +9,7 @@ export const SideBar = ({viewBox,toggleMenu}) => {
   
   return (
     <>
-        <div id='sidebarHide' className={(viewBox)?"sidebar":"disnone"}>
+        <div id='sidebarHide' className={viewBox ? "sidebar" : "disnone"}>
             <p>Menu</p>
             <div className="SBcontents" >
               <Link onClick={ClickedBtn} to="/GDSC-Veecsha/Home" >Home</Link>
