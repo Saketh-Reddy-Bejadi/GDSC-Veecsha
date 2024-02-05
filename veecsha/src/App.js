@@ -29,11 +29,11 @@ export const App = () => {
       <Header MenuOpen={MenuOpen} toggleMenu={toggleMenu} isOpened={isOpened} viewBox={viewBox} />
       <main id='Home' className="main">
         <Routes>
-          <Route path='/GDSC-Veecsha' Component={Home} ></Route>
-          <Route path='/GDSC-Veecsha/WebDev' Component={WebDev} ></Route>
-          <Route path='/GDSC-Veecsha/Home' Component={Home} ></Route>
-          <Route path='/GDSC-Veecsha/DSA' Component={DSA} ></Route>
-          <Route path='/GDSC-Veecsha/Services' Component={Services} ></Route>
+          <Route path='/GDSC-Veecsha' element={<Home/>} ></Route>
+          <Route path='/GDSC-Veecsha/WebDev' element={<WebDev/>} ></Route>
+          <Route path='/GDSC-Veecsha/Home' element={<Home/>} ></Route>
+          <Route path='/GDSC-Veecsha/DSA' element={<DSA/>} ></Route>
+          <Route path='/GDSC-Veecsha/Services' element={<Services/>} ></Route>
         </Routes>
       </main>  
       <Footer/>
