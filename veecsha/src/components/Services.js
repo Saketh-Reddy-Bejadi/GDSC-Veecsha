@@ -4,12 +4,19 @@ import { Page2 } from './Page2';
 import { useEffect } from 'react';
 
 export const Services = () => {
-    useEffect(() => {
-        window.scrollTo({
-            top:650,
-            behaviour:'smooth',
+  useEffect(() => {
+    const scrollOptions = {
+      behavior: 'smooth',
+    };
+    const mobileScrollPosition = 660;
+    const desktopScrollPosition = 600;
+    const isMobile = window.matchMedia('(max-width: 768px)').matches;
+    const scrollPosition = isMobile ? mobileScrollPosition : desktopScrollPosition;
+    window.scrollTo({
+      top: scrollPosition,
+      ...scrollOptions,
     });
-      }, []); 
+  }, []);
   return (
     <>
     <Page1/>
