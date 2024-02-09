@@ -9,7 +9,7 @@ export const Services = () => {
       behavior: 'smooth',
     };
     const mobileScrollPosition = 660;
-    const desktopScrollPosition = 660;
+    const desktopScrollPosition = 760;
     const isMobile = window.matchMedia('(max-width: 768px)').matches;
     const scrollPosition = isMobile ? mobileScrollPosition : desktopScrollPosition;
     window.scrollTo({
